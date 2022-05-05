@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>HW 21 Рудофилов</title>
+</head>
+<body>
+    <div class="container-md">
+        
+        <form class="form">
+            <div class="row">
+                <div class="col text-center">
+                    <label for="select" class="form-label">Choose your form</label>
+                    <select class="form-select form-select-sm" id="select" aria-label="Select your figure">
+                        <option selected>Choose your figure</option>
+                        <option value="circle" >Circle</option>
+                        <option value="square">Square</option>
+                        <option value="rectangle">Rectangle</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    
+                </div>
+                <div class="col text-center">
+                    <label for="color" class="form-label">Choose your color.</label>
+                    <input type="color" class="form-control form-control-color" id="color" value="#FF7100" title="Choose your color"> 
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col">
+              
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <div class="myfigure"></div>
+            </div>
+            <div class="col">
+              
+            </div>
+        </div>
+        <img class="img" src="img/pic01.png" alt="smile">
+    </div>
+
+    <script type="module" src="js/script.min.js"></script>
+</body>
+</html>

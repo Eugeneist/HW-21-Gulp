@@ -1,0 +1,38 @@
+
+@mixin figure ($bgcolor: #FF7100) {
+    width:200px;
+    height:200px;
+    background-color: $bgcolor;
+}
+
+.circle{
+    @include figure;
+    border-radius: 50%;
+    
+}
+
+.square{
+    @include figure;
+}
+
+.rectangle{
+    @include figure;
+    width: 400px;
+}
+
+.myfigure{
+    @include figure;
+}
+
+.container-md{
+    padding: 100px 15px;
+}
+
+.form-control-color{
+    max-width: 100%;
+}
+
+.img{
+    width: 300px;
+    margin: 0 auto;
+}
